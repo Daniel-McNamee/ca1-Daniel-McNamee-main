@@ -9,6 +9,8 @@ export const routes: Routes = [
 
   { path: 'about', component: AboutComponent },
 
-  { path: 'movie/:id', component: DetailsComponent }
+  { path: 'movie/:id', component: DetailsComponent },
+
+  { path: '**', redirectTo: '' }
 
 ];
